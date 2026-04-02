@@ -10,7 +10,7 @@ lang: en
 
 # Polyglot Settings
 
-languages: ["en", "ja", "fr"]
+languages: ["en", "fr", "ja"]
 default_lang: "en"
 exclude_from_localization: ["javascript", "images", "css", "public", "assets", "sitemap.xml"]
 parallel_localization: false

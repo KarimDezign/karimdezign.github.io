@@ -1,26 +1,19 @@
- ---
- layout: compress
- ---
- 
- <!doctype html>
- 
- {% include origin-type.html %}
- 
- {% include lang.html %}
- 
- {% if site.theme_mode %}
-   {% capture prefer_mode %}data-mode="{{ site.theme_mode }}"{% endcapture %}
- {% endif %}
- 
- <!-- `site.alt_lang` can specify a language different from the UI -->
--<html lang="{{ page.lang | default: site.alt_lang | default: site.lang }}" {{ prefer_mode }}>
-+<html lang="{{ page.lang | default: site.active_lang | default: site.alt_lang | default: site.lang }}" {{ prefer_mode }}>
-   {% include head.html %}
+---
+layout: compress
+---
 
-  <body>
+<!doctype html>
+
+{% include origin-type.html %}
+
+{% include lang.html %}
+
+{% if site.theme_mode %}
+  {% capture prefer_mode %}data-mode="{{ site.theme_mode }}"{% endcapture %}
+{% endif %}
 
 <!-- `site.alt_lang` can specify a language different from the UI -->
-<html lang="{{ page.lang | default: site.alt_lang | default: site.lang }}" {{ prefer_mode }}>
+<html lang="{{ page.lang | default: site.active_lang | default: site.alt_lang | default: site.lang }}" {{ prefer_mode }}>
   {% include head.html %}
 
   <body>
@@ -40,7 +33,7 @@
           </main>
 
           <!-- panel -->
-          <aside aria-label="Panel" id="panel-wrapper" class="col-xl-3 ps-2 mb-5 text-muted">
+          <aside aria-label="Panel" id="panel-wrapper" class="col-xl-3 ps-2 text-muted">
             <div class="access">
               {% include_cached update-list.html lang=lang %}
               {% include_cached trending-tags.html lang=lang %}
@@ -75,14 +68,18 @@
       </aside>
     </div>
 
-    <div id="mask"></div>
+    <div id="mask" class="d-none position-fixed w-100 h-100 z-1"></div>
 
     {% if site.pwa.enabled %}
       {% include_cached notification.html lang=lang %}
     {% endif %}
 
-    <!-- JavaScripts -->
-    {% include js-selector.html lang=lang %}
+    <!-- Embedded scripts -->
+
+    {% for _include in layout.script_includes %}
+      {% assign _include_path = _include | append: '.html' %}
+      {% include {{ _include_path }} %}
+    {% endfor %}
 
     {% include_cached search-loader.html lang=lang %}
   </body>
