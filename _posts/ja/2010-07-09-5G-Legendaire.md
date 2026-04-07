@@ -1,20 +1,20 @@
 ---
-title: "Les Deux New Legendaire De Cette 5G!!!"
+title: "5世代のふたつの新しい伝説!!!"
 date: 2010-07-09 00:00:00 +0800
-description: An article from one of my older blogs.
+description: 古いブログの記事です。
 categories: [ポケモン]
 tag: [ポケモン]
-image: /assets/img/2009-07-09-2/2007-07-09-banner.png
+image: /assets/img/2010-07-09-2/2007-07-09-banner.png
 ---
 
-Je nomme Réshiram de type feu et dragon
+レシラムです、。ほのお・ドラゴンタイプです、。
 
-LE VOICI:
+こちらです：
 
-![img-description](assets/img/2009-07-09-2/Reshiram.jpg){: width="350" }
+![img-description](assets/img/2010-07-09-2/Reshiram.jpg){: width="350" }
 
-Mais biensur le deuxieme se nomment Zekrom pokémon de type electrique et dragon
+もちろん、次はゼクロムです、。　ドラゴン・でんきタイプです。
 
-LE VOICI:
+こちらです：
 
-![img-description](assets/img/2009-07-09-2/140px-Zekrom.png){: width="350" }
+![img-description](assets/img/2010-07-09-2/140px-Zekrom.png){: width="350" }

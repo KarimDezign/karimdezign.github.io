@@ -4,17 +4,17 @@ date: 2010-07-09 00:00:00 +0800
 description: Un article d'un de mes anciens blogs.
 categories: [Pokémon]
 tag: [Pokémon]
-image: /assets/img/2009-07-09-2/2007-07-09-banner.png
+image: /assets/img/2010-07-09-2/2007-07-09-banner.png
 ---
 
 Je nomme Réshiram de type feu et dragon
 
 LE VOICI:
 
-![img-description](assets/img/2009-07-09-2/Reshiram.jpg){: width="350" }
+![img-description](assets/img/2010-07-09-2/Reshiram.jpg){: width="350" }
 
 Mais biensur le deuxieme se nomment Zekrom pokémon de type electrique et dragon
 
 LE VOICI:
 
-![img-description](assets/img/2009-07-09-2/140px-Zekrom.png){: width="350" }
+![img-description](assets/img/2010-07-09-2/140px-Zekrom.png){: width="350" }
