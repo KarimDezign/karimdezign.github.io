@@ -14,6 +14,14 @@ platforms:
     icon: "fab fa-telegram"
     link: "https://t.me/share/url?url=URL&text=TITLE"
 
+  - type: Bluesky
+    icon: "fa-brands fa-bluesky"
+    link: "https://bsky.app/profile/karimdezign.com"
+
+  - type: Instagram
+    icon: "fa-brands fa-instagram"
+    link: "https://www.instagram.com/karimdezign/"
+
   # Uncomment below if you need to.
   #
   # - type: Linkedin
@@ -37,9 +45,7 @@ platforms:
   #     - label: photog.social
   #       link: "https://photog.social/"
   #
-  # - type: Bluesky
-  #   icon: "fa-brands fa-bluesky"
-  #   link: "https://bsky.app/intent/compose?text=TITLE%20URL"
+
   #
   # - type: Reddit
   #   icon: "fa-brands fa-square-reddit"

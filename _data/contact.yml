@@ -27,9 +27,13 @@
 #   icon: 'fab fa-stack-overflow'
 #   url:  ''                  # Fill with your stackoverflow homepage
 #
-# - type: bluesky
-#   icon: 'fa-brands fa-bluesky'
-#   url: ''                   # Fill with your Bluesky profile link
+- type: bluesky
+  icon: 'fa-brands fa-bluesky'
+  url: 'https://bsky.app/profile/karimdezign.com' # Fill with your Bluesky profile link
+
+- type: instagram
+  icon: "fa-brands fa-instagram"
+  link: "https://www.instagram.com/karimdezign/"
 #
 # - type: reddit
 #   icon: 'fa-brands fa-reddit'
