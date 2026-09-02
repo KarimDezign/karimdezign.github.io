@@ -1,4 +1,5 @@
 ---
 title: Home
 ---
-Hello world !
+Hello
+![[stand.gif]]
