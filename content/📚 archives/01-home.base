@@ -1,0 +1,16 @@
+views:
+  - type: cards
+    name: Archives Cards
+    filters:
+      and:
+        - file.hasTag("drawing")
+    order:
+      - file.name
+      - date
+      - tags
+    sort:
+      - property: date
+        direction: DESC
+    imageAspectRatio: 1.4
+    cardSize: 200
+    image: note.cover
