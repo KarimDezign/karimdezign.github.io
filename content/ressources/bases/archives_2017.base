@@ -5,7 +5,7 @@ views:
       and:
         - file.hasTag("archives")
         - date < "2018-01-01"
-        - date > "2017-01-01"
+        - date > "2016-12-31"
     order:
       - file.name
       - date

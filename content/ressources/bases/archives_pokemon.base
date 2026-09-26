@@ -1,0 +1,14 @@
+views:
+  - type: cards
+    name: Table
+    filters:
+      and:
+        - file.hasTag("croquismon")
+    order:
+      - file.name
+      - date
+      - No
+    sort:
+      - property: No
+        direction: ASC
+    image: note.cover
