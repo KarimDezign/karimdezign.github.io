@@ -1,0 +1,16 @@
+views:
+  - type: cards
+    name: Table
+    filters:
+      and:
+        - file.hasTag("archives")
+        - date < "2025-01-01"
+        - date > "2024-01-01"
+    order:
+      - file.name
+      - date
+      - tags
+    sort:
+      - property: date
+        direction: DESC
+    image: note.cover

@@ -1,0 +1,16 @@
+views:
+  - type: cards
+    name: Table
+    filters:
+      and:
+        - file.hasTag("archives")
+    order:
+      - file.name
+      - date
+      - tags
+    sort:
+      - property: date
+        direction: DESC
+    imageAspectRatio: 1
+    image: note.cover
+    cardSize: 200
